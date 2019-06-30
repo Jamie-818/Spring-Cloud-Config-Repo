@@ -5,8 +5,6 @@ server:
 test:
   variable: "测试下配置中心是否获取到配置"
 spring:
-  application:
-    name: show-sleuth-example
   sleuth:
     sampler:
       probability: 1 #全部收集，默认只收集10%
